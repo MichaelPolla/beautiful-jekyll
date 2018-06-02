@@ -138,7 +138,7 @@ title-separator: "-"
 
 # Output options (more information on Jekyll's site)
 timezone: "Europe/Zurich"
-markdown: kramdown
+markdown: CommonMark
 highlighter: rouge
 permalink: /:year-:month-:day-:title/
 paginate: 5
