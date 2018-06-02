@@ -23,8 +23,10 @@ description: Some code, some other things... ;-)
 
 # List of links in the navigation bar
 navbar-links:
-  Ressources utiles Suisse (fr): "ressources-utiles-suisse"
+  Mac: "/_pages/mac"
   VSCode: "/_pages/VSCode"
+  Various dev ressources: "/_pages/other"
+  Ressources utiles Suisse (fr): "ressources-utiles-suisse"
   About Me: "/_pages/aboutme"
   # Other
   #  - Beautiful Jekyll: "http://deanattali.com/beautiful-jekyll/"
