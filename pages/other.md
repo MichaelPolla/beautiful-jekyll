@@ -69,6 +69,7 @@ See also the separate pages like [Mac](/Mac.md) or [VSCode](/VSCode.md).
     - [Slack](#slack)
         - [Nice tools](#nice-tools)
 - [Better quality code tools](#better-quality-code-tools)
+    - [Windows Troubleshooting](#windows-troubleshooting)
 
 <!-- /TOC -->
 
@@ -347,3 +348,7 @@ It depends of the length : 128-bit sequence (32 hexadecimal digits) => possible 
 Code coverage, CI...
 
 [Coveralls](https://coveralls.io/): Shows which part of code aren't covered by the test suite. Free for open source repos.
+
+## Windows Troubleshooting
+
+[SysInternals Live](https://live.sysinternals.com/)
