@@ -70,6 +70,7 @@ See also the separate pages like [Mac](/Mac.md) or [VSCode](/VSCode.md).
         - [Nice tools](#nice-tools)
 - [Better quality code tools](#better-quality-code-tools)
     - [Windows Troubleshooting](#windows-troubleshooting)
+        - [Add tools to path and symbols variable](#add-tools-to-path-and-symbols-variable)
 
 <!-- /TOC -->
 
@@ -351,4 +352,10 @@ Code coverage, CI...
 
 ## Windows Troubleshooting
 
-[SysInternals Live](https://live.sysinternals.com/)
+[SysInternals Live](https://live.sysinternals.com/)  
+
+### Add tools to path and symbols variable
+
+- Open `sysdm.cpl` from start menu
+- Add the SysInternals tools location to PATH variable
+- Add a new system variable named `_NT_SYMBOL_PATH` with value: `srv*C:\symbols*http://msdl.microsoft.com/download/symbols`
