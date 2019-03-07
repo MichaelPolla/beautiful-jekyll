@@ -69,8 +69,12 @@ See also the separate pages like [Mac](/Mac.md) or [VSCode](/VSCode.md).
     - [Slack](#slack)
         - [Nice tools](#nice-tools)
 - [Better quality code tools](#better-quality-code-tools)
-    - [Windows Troubleshooting](#windows-troubleshooting)
+    - [SysInternals Tools](#sysinternals-tools)
         - [Add tools to path and symbols variable](#add-tools-to-path-and-symbols-variable)
+        - [PsInfo](#psinfo)
+        - [PsList](#pslist)
+        - [PsLoggedOn](#psloggedon)
+        - [PsLogList](#psloglist)
 
 <!-- /TOC -->
 
@@ -350,7 +354,7 @@ Code coverage, CI...
 
 [Coveralls](https://coveralls.io/): Shows which part of code aren't covered by the test suite. Free for open source repos.
 
-## Windows Troubleshooting
+## SysInternals Tools
 
 [SysInternals Live](https://live.sysinternals.com/)  
 
@@ -359,3 +363,21 @@ Code coverage, CI...
 - Open `sysdm.cpl` from start menu
 - Add the SysInternals tools location to PATH variable
 - Add a new system variable named `_NT_SYMBOL_PATH` with value: `srv*C:\symbols*http://msdl.microsoft.com/download/symbols`
+
+### PsInfo
+
+`psinfo -d`: show also disks information.
+
+### PsList
+
+`pslist -s 60 -r 1`: displays information about running processes, refreshed every second.
+
+`pslist -x win`: displays CPU, thread and memory information about all processes with names beginning with `win`.
+
+### PsLoggedOn
+
+Tells who is logged on to a computer, locally or through resource shares.
+
+### PsLogList
+
+`psloglist application`
