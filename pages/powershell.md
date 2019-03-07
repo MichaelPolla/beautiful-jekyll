@@ -67,7 +67,7 @@ Navigate in the registry :
 
 `Esc`: clear the command line
 
-## Misc
+## Misc (to be reordered later)
 
 `$PSVersionTable`: Get the PowerShell and related components versions.
 
@@ -82,7 +82,7 @@ Remember to run the corresponding command (like Import-* or Get-Content) first o
 
 `Compare-Object -ReferenceObject (Import-Clixml .\ref.xml) -DifferenceObject (Get-Process) -Property Name`
 
-Two text files: 
+Two text files:  
 `diff -ReferenceObject (Get-Content .\file1.txt) -DifferenceObject (Get-Content .\file2.txt)`
 
 ### Export logs
@@ -93,6 +93,10 @@ Two text files:
 
 Kill all processes with a name beginning with "firef" (like firefox):
 `Stop-Process -InputObject (Get-Process firef*)`
+
+### Listing files and folders
+
+[List files in folders and subfolders](https://devblogs.microsoft.com/scripting/list-files-in-folders-and-subfolders-with-powershell/)
 
 ## Modules
 
